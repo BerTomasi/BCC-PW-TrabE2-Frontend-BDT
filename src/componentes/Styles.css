@@ -1,0 +1,46 @@
+.home {
+    text-align: center;
+}
+
+.home_body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.home_body h1 span{
+    color: #D23C77;
+    background-color: #222;
+    padding: 0.2em;
+}
+
+.home_footer {
+    background-color: black;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.modelo{
+    size: 520;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.botao{
+    padding: 2em;
+}
